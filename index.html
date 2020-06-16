@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Riverwood</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Neuton:wght@700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" defer></script>
+  <script>window.jQuery || document.write('<script src="js/jquery-3.3.1.min.js" defer><\/script>')</script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"
+    defer></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"
+    defer></script>
+  <script src="js/jquery.main.js" defer></script>
+</head>
+<body>
+  <div id="wrapper" class="position-relative w-100 overflow-hidden">
+    <header id="header" class="header position-relative">
+      <div class="container d-flex flex-wrap d-lg-block w-100 align-items-center">
+        <div class="logo">
+          <a href="#">
+            <img src="images/logo-main.svg" width="162" height="75" alt="riverwood 100% natural dog and cat nutrition">
+          </a>
+        </div>
+        <div class="nav-holder d-flex d-lg-block flex-wrap align-items-center justify-content-end">
+          <div class="feeding-wrap">
+            <img src="images/ico-feeding.svg" width="46" height="29" alt="image description">
+            <div class="item-info position-absolute bg-green d-flex flex-wrap justify-content-center align-items-center">
+              <span class="item-selected">0</span>
+            </div>
+          </div>
+          <a href="#" class="nav-opener d-lg-none"><span></span></a>
+          <div class="nav-drop pt-15 px-15 pt-sm-30 px-30 p-lg-0 d-flex flex-lg-wrap flex-column flex-lg-row">
+            <div class="nav-block pt-lg-65 pr-lg-50 pb-lg-15 pl-lg-170 pl-xl-215 d-lg-flex flex-lg-wrap justify-content-lg-between">
+              <nav id="nav">
+                <ul>
+                  <li class="py-15 pt-lg-0 pr-lg-20 pr-xl-40 pb-lg-5 pl-lg-0"><a href="#">Hondenvoer</a></li>
+                  <li class="py-15 pt-lg-0 pr-lg-20 pr-xl-40 pb-lg-5 pl-lg-0"><a href="#">Kattenvoer</a></li>
+                  <li class="py-15 pt-lg-0 pr-lg-20 pr-xl-40 pb-lg-5 pl-lg-0"><a href="#">Verkooppunten</a></li>
+                  <li class="dropdown py-15 pt-lg-0 pr-lg-20 pr-xl-40 pb-lg-5 pl-lg-0">
+                    <a href="#" id="navbarDropdown" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                      aria-expanded="false">Over ons</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Over Riverwood</a>
+                      <a class="dropdown-item" href="#">Onze voeding</a>
+                      <a class="dropdown-item" href="#">Blog</a>
+                    </div>
+                  </li>
+                </ul>
+              </nav>
+              <div class="account-holder mt-20 mt-lg-0 mb-30 mb-lg-0 ml-lg-auto d-lg-flex flex-lg-wrap">
+                <span class="account-title d-block text-shark mr-lg-5 mr-xl-10 mb-10 mb-lg-0">Account</span>
+                <div class="account-select-wrap">
+                  <select class="language">
+                    <option class="hideme">nl</option>
+                    <option data-image="images/netherland.svg">nl</option>
+                    <option data-image="images/uk.svg">uk</option>
+                    <option data-image="images/germany.svg">de</option>
+                    <option data-image="images/france.svg">fr</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="top-info-holder position-relative w-100 py-15 pt-lg-7 pb-lg-4">
+              <ul class="top-info-list d-lg-flex flex-lg-wrap justify-content-lg-around">
+                <li class="mb-15 mb-lg-5 px-lg-10 px-xl-30">
+                  <div class="info-item-wrap pl-25">
+                    <div class="img-wrap">
+                      <img src="images/ico-paw.svg" width="17" height="16" alt="image description">
+                    </div>
+                    <span class="img-text d-block">Deskundig advies</span>
+                  </div>
+                </li>
+                <li class="mb-15 mb-lg-5 px-lg-10 px-xl-30">
+                  <div class="info-item-wrap pl-25">
+                    <div class="img-wrap">
+                      <img src="images/ico-paw.svg" width="17" height="16" alt="image description">
+                    </div>
+                    <span class="img-text d-block">Gratis verzending vanaf €49,-</span>
+                  </div>
+                </li>
+                <li class="mb-15 mb-lg-5 px-lg-10 px-xl-30">
+                  <div class="info-item-wrap pl-25">
+                    <div class="img-wrap">
+                      <img src="images/ico-paw.svg" width="17" height="16" alt="image description">
+                    </div>
+                    <span class="img-text d-block">Voor 17:00 besteld, morgen in huis</span>
+                  </div>
+                </li>
+                <li class="mb-15 mb-lg-5 px-lg-10 px-xl-30">
+                  <div class="info-item-wrap pl-25">
+                    <div class="img-wrap">
+                      <img src="images/ico-paw.svg" width="17" height="16" alt="image description">
+                    </div>
+                    <span class="img-text d-block">100% smaakgarantie</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="banner-wrap position-relative">
+      <div class="banner-slick-slider position-relative">
+        <div class="d-flex flex-wrap position-relative pb-65 p-md-0">
+          <div class="bg-stretch">
+            <span data-srcset="images/img01-sm.png, images/img01-sm@2x.png 2x"></span>
+            <span data-srcset="images/img01-lg.png, images/img01-lg@2x.png 2x" data-media="(min-width: 768px)"></span>
+            <span data-srcset="images/img01-lg.png, images/img01-lg@2x.png 2x" data-media="(min-width: 1024px)"></span>
+          </div>
+          <div class="container d-flex flex-wrap align-items-center w-100 py-md-50">
+            <div class="banner-block w-100 text-white">
+              <h1 class="text-uppercase mb-30 mb-sm-55">Het <b class="text-warning">avontuur</b> ligt in het verschiet. Vandaag
+              is een mooie dag om samen door te brengen. Een dag vol natuur & het verkennen Van je wilde kant.</h1>
+              <ul class="btn-group d-block d-sm-flex flex-sm-wrap">
+                <li class="pb-15 px-sm-35 px-md-6 px-lg-15"><a href="#" class="btn btn-warning shadow-sm text-uppercase">Shop voor je hond</a></li>
+                <li class="pb-15 px-sm-35 px-md-6 px-lg-15"><a href="#" class="btn btn-warning shadow-sm text-uppercase">Shop voor je kat</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex flex-wrap position-relative pb-65 p-md-0">
+          <div class="img-wrap bg-stretch">
+            <span data-srcset="images/img01-sm.png, images/img01-sm@2x.png 2x"></span>
+            <span data-srcset="images/img01-lg.png, images/img01-lg@2x.png 2x" data-media="(min-width: 768px)"></span>
+            <span data-srcset="images/img01-lg.png, images/img01-lg@2x.png 2x" data-media="(min-width: 1024px)"></span>
+          </div>
+          <div class="container d-flex flex-wrap align-items-center w-100 py-md-50">
+            <div class="banner-block w-100 text-white">
+              <h1 class="text-uppercase mb-30 mb-sm-55">Het <b class="text-warning">avontuur</b> ligt in het verschiet. Vandaag
+              is een mooie dag om samen door te brengen. Een dag vol natuur & het verkennen Van je wilde kant.</h1>
+              <ul class="btn-group d-block d-sm-flex flex-sm-wrap">
+                <li class="pb-15 px-sm-35 px-md-6 px-lg-15"><a href="#" class="btn btn-warning shadow-sm text-uppercase">Shop voor je hond</a></li>
+                <li class="pb-15 px-sm-35 px-md-6 px-lg-15"><a href="#" class="btn btn-warning shadow-sm text-uppercase">Shop voor je kat</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex flex-wrap position-relative pb-65 p-md-0">
+          <div class="img-wrap bg-stretch">
+            <span data-srcset="images/img01-sm.png, images/img01-sm@2x.png 2x"></span>
+            <span data-srcset="images/img01-lg.png, images/img01-lg@2x.png 2x" data-media="(min-width: 768px)"></span>
+            <span data-srcset="images/img01-lg.png, images/img01-lg@2x.png 2x" data-media="(min-width: 1024px)"></span>
+          </div>
+          <div class="container d-flex flex-wrap align-items-center w-100 py-md-50">
+            <div class="banner-block w-100 text-white">
+              <h1 class="text-uppercase mb-30 mb-sm-55">Het <b class="text-warning">avontuur</b> ligt in het verschiet. Vandaag
+              is een mooie dag om samen door te brengen. Een dag vol natuur & het verkennen Van je wilde kant.</h1>
+              <ul class="btn-group d-block d-sm-flex flex-sm-wrap">
+                <li class="pb-15 px-sm-35 px-md-6 px-lg-15"><a href="#" class="btn btn-warning shadow-sm text-uppercase">Shop voor je hond</a></li>
+                <li class="pb-15 px-sm-35 px-md-6 px-lg-15"><a href="#" class="btn btn-warning shadow-sm text-uppercase">Shop voor je kat</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <main id="main">
+      <div class="about-wrap mb-25 d-md-flex flex-md-wrap align-items-md-stretch">
+        <div class="about-card-holder py-35 px-15 pt-sm-45 pt-md-50 pt-lg-55 pr-sm-50 pr-md-0 pb-sm-40 pb-md-25 pl-sm-60 pl-md-30">
+          <div class="about-card-body pr-md-15 pr-xxl-0">
+            <h2 class="text-uppercase text-shark mb-20 mb-sm-30 mb-md-25">Over riverwood</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt diam dui, ut sagittis felis
+              laoreet placerat.
+              Donec eget euismod metus.</p>
+            <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus viverra,
+              mauris sed venenatis
+              aliquam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <span class="d-block quote-block pt-10 pt-md-25 ml-auto mr-sm-15 mr-md-30">
+              <img src="images/quote.svg" width="282" height="102" alt="kon elke dag maar zo zijn">
+            </span>
+          </div>
+        </div>
+        <div class="about-img-wrap bg-stretch">
+          <span data-srcset="images/img01-sm.jpg, images/img01-sm@2x.jpg 2x"></span>
+          <span data-srcset="images/img01-lg.jpg, images/img01-lg@2x.jpg 2x" data-media="(min-width: 768px)"></span>
+          <span data-srcset="images/img01-lg.jpg, images/img01-lg@2x.jpg 2x" data-media="(min-width: 1024px)"></span>
+        </div>
+      </div>
+      <div class="feature-wrap shadow-lg pt-35 pt-md-40 pb-50 pb-sm-70 mx-auto mb-30 position-relative overflow-hidden">
+        <div class="bg-stretch position-absolute">
+          <span data-srcset="images/img05-lg.png, images/img05-lg@2x 2x"></span>
+        </div>
+        <div class="container">
+          <h2 class="text-center text-uppercase text-shark mb-20 mb-sm-25 mb-md-20">onze voeding</h2>
+          <ul class="feature-link-list d-flex flex-wrap justify-content-center pb-30 pb-sm-65 pb-md-60">
+            <li class="active px-15"><a href="#">voor honden</a></li>
+            <li class="px-15"><a href="#">voor katten</a></li>
+          </ul>
+          <div class="feature-slider text-center mx-50 mx-sm-100 mx-md-50 mx-xxl-0">
+            <div class="slide">
+              <div class="feature-img-wrap mx-auto mb-30 mb-sm-45 rounded-circle">
+                <img src="images/img-graan.svg" alt="graan and glutenvrij" width="170" height="170">
+              </div>
+              <div class="feature-title-block">
+                <h3 class="text-heavy-metal text-uppercase">Graan- en <br>glutenvrij</h3>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="feature-img-wrap mx-auto mb-30 mb-sm-45 rounded-circle">
+                <img src="images/img-natural.svg" alt="100% natuurlijk" width="170" height="170">
+              </div>
+              <div class="feature-title-block">
+                <h3 class="text-heavy-metal text-uppercase">geen gebruik van <br>kunstmatige geur-, <br>kleur- of smaakstoffen
+                </h3>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="feature-img-wrap mx-auto mb-30 mb-sm-45 rounded-circle">
+                <img src="images/img-hypoallergene.svg" alt="hypoallergene eiwit" width="170" height="170">
+              </div>
+              <div class="feature-title-block">
+                <h3 class="text-heavy-metal text-uppercase">3 unieke, <br>hypoallergene eiwitbronnen <br>in elke variant
+                </h3>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="feature-img-wrap mx-auto mb-30 mb-sm-45 rounded-circle">
+                <img src="images/img-graan.svg" alt="graan and glutenvrij" width="170" height="170">
+              </div>
+              <div class="feature-title-block">
+                <h3 class="text-heavy-metal text-uppercase">Graan- en <br>glutenvrij</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="product-block-wrap bg-solitaire pt-50 pt-md-55 pb-30 pb-md-35">
+        <div class="container">
+          <h2 class="text-center text-uppercase text-shark mb-35 mb-md-60">onze voeding</h2>
+          <div class="row">
+            <div class="col-lg-8 offset-lg-2">
+              <div class="row">
+                <div class="col-sm-6 text-center mb-45 mb-sm-30">
+                  <div class="product-block-img mx-auto mx-sm-0 mb-30 mb-md-40">
+                    <picture>
+                      <source srcset="images/img03-sm.png, images/img03-sm@2x.png 2x" media="(max-width: 767px)">
+                      <source srcset="images/img03-lg.png" media="(max-width: 1024px)">
+                      <source srcset="images/img03-lg.png, images/img03-lg@2x.png 2x">
+                      <img src="images/img03-lg.png" alt="image description" width="350" height="414">
+                    </picture>
+                  </div>
+                  <a href="#" class="btn btn-warning shadow-sm">Shop voor je hond</a>
+                </div>
+                <div class="col-sm-6 text-center mb-45 mb-sm-30">
+                  <div class="product-block-img mx-auto mx-sm-0 mb-30 mb-md-40">
+                    <picture>
+                      <source srcset="images/img04-sm.png, images/img04-sm@2x.png 2x" media="(max-width: 767px)">
+                      <source srcset="images/img04-lg.png" media="(max-width: 1024px)">
+                      <source srcset="images/img04-lg.png, images/img04-lg@2x.png 2x">
+                      <img src="images/img04-lg.png" alt="image description" width="350" height="414">
+                    </picture>
+                  </div>
+                  <a href="#" class="btn btn-warning shadow-sm">Shop voor je kat</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="newsletter-wrap bg-warning text-shark pt-35 pt-md-55 pb-30 pb-md-45">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-6 align-self-md-end">
+              <div class="newsletter-img">
+                <img src="images/img02-lg.png" srcset="images/img02-lg@2x.png 2x" alt="image description" width="492"
+                  height="270">
+              </div>
+            </div>
+            <div class="col-sm-10 offset-sm-1 col-md-6 offset-md-0">
+              <form class="newsletter-form px-sm-15 px-md-0 text-center text-md-left" action="#">
+                <h2 class="text-uppercase text-shark mb-30 mb-md-25">Meld je aan voor <br>onze nieuwsbrief</h2>
+                <div class="form-block pr-xl-90 pb-20 pb-md-30 d-md-flex flex-md-wrap justify-content-md-between">
+                  <input type="email" class="form-control mb-10 mb-lg-0" placeholder="E-mailadres">
+                  <input type="submit" class="btn btn-outline-abbey shadow-sm" value="aanmelden">
+                </div>
+                <span class="newsletter-form-text d-block">Je aanmelden is akkoord gaan met <a href="#">onze voorwaarden</a>.</span>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer id="footer" class="bg-white overflow-hidden position-relative">
+      <div class="footer-top-wrap pt-40 pt-sm-55 pb-md-30 text-center text-sm-left">
+        <div class="container">
+          <div class="footer-top-holder d-sm-flex flex-sm-wrap">
+            <div class="footer-block pb-30 pb-sm-40 pb-md-50 pb-lg-0 px-sm-30 px-md-15">
+              <div class="footer-logo pt-sm-2 pt-md-5 pb-35 pb-md-50">
+                <a href="#">
+                  <img src="images/logo-footer.svg" class="img-default" width="191" height="88"
+                  alt="riverwood 100% natural dog and cat nutrition">
+                  <img src="images/logo-footer-hover.svg" class="img-hover" width="191" height="88"
+                  alt="riverwood 100% natural dog and cat nutrition">
+                </a>
+              </div>
+              <ul class="social-networks d-flex flex-wrap justify-content-center justify-content-sm-start">
+                <li class="px-20 px-md-15 pb-5"><a href="#"><i class="icon-facebook"></i></a></li>
+                <li class="px-20 px-md-15 pb-5"><a href="#"><i class="icon-instagram"></i></a></li>
+              </ul>
+            </div>
+            <div class="footer-block pb-30 pb-sm-40 pb-md-50 pb-lg-0 px-sm-30 px-md-15">
+              <strong class="footer-block-title mb-20 mb-sm-25 font-weight-semi-bold text-light-white d-block">Contact</strong>
+              <address class="text-aluminium mb-4">Saffierborch 16 <br> 5241 LN Rosmalen <br>Nederland</address>
+              <ul class="contact-number-list">
+                <li class="mb-5">T. <a href="tel:310735220873">+31-(0)73 522 0873</a></li>
+                <li class="mb-5">F. <a href="tel:310735236569">+31-(0)73 523 6569</a></li>
+              </ul>
+            </div>
+            <div class="footer-block pb-30 pb-sm-40 pb-md-50 pb-lg-0 px-sm-30 px-md-15">
+              <strong class="footer-block-title mb-20 mb-sm-25 font-weight-semi-bold text-light-white d-block">Klantenservice</strong>
+              <ul class="footer-nav mb-sm-25">
+                <li><a href="#">Bestelling</a></li>
+                <li><a href="#">Betaling</a></li>
+                <li><a href="#">Verzending & bezorging</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">FAQ</a></li>
+              </ul>
+            </div>
+            <div class="footer-block pb-30 pb-sm-40 pb-md-50 pb-lg-0 px-sm-30 px-md-15">
+              <div class="footer-block-two-col d-lg-flex flex-lg-wrap">
+                <div class="footer-block-l px-md-15">
+                  <strong class="footer-block-title mb-20 mb-sm-25 font-weight-semi-bold text-light-white d-block">Shoppen</strong>
+                  <ul class="footer-nav mb-sm-25">
+                    <li><a href="#">Shop voor je hond</a></li>
+                    <li><a href="#">Shop voor je kat</a></li>
+                  </ul>
+                  <ul class="footer-nav mb-sm-25">
+                    <li><a href="#">Vind een winkel</a></li>
+                  </ul>
+                </div>
+                <div class="footer-block-r pt-40 pt-md-0 px-md-15 align-self-lg-end">
+                  <div class="img-quote">
+                    <img src="images/quote-footer.svg" width="232" height="84" alt="kon elke dag maar zo zijn">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="footer-copyright-block pt-15 pt-md-9 pb-20 pb-md-8">
+          <div class="row">
+            <div class="col-sm-6">
+              <ul class="copyright-block-list text-center text-sm-left d-sm-flex flex-sm-wrap">
+                <li class="px-sm-10 pb-15 pb-sm-0"><a href="#">Algemene voorwaarden</a></li>
+                <li class="px-sm-10 pb-15 pb-sm-0"><a href="#">Privacy</a></li>
+                <li class="px-sm-10 pb-15 pb-sm-0"><a href="#">Cookies</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6">
+              <ul class="copyright-block-list text-center text-sm-left d-sm-flex flex-sm-wrap style-2 justify-content-sm-end">
+                <li class="px-sm-10 pb-15 pb-sm-0">&copy;2020 - <a href="#">Riverwood</a></li>
+                <li class="px-sm-10 pb-15 pb-sm-0"><a href="#">Johnson Petfoods</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
