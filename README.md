@@ -1,1 +1,1 @@
-you have so much to learn by yourself
+you have so much to learn by yourself. step by step teaching self is the best way to learn clearly
